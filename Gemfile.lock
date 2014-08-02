@@ -12,6 +12,8 @@ GEM
       tzinfo (~> 1.1)
     bson (2.3.0)
     builder (3.2.2)
+    ci_reporter (1.8.4)
+      builder (>= 2.1.2)
     connection_pool (2.0.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
@@ -69,6 +71,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ci_reporter (~> 1.8.0)
   mongoid
   rspec
   rspec_junit_formatter
