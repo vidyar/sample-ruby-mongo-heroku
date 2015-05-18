@@ -9,3 +9,5 @@ simple `db:migrate` Rake task to illustrate how it can be called from Shippable 
 For more detailed documentation, please see Shippable's continuous deployment section: http://docs.shippable.com/en/latest/config.html#continuous-deployment
 
 This sample is built for Shippable, a docker based continuous integration and deployment platform.
+
+[![Build Status](https://api.shippable.com/projects/544f86d844927f89db3dff55/badge?branchName=master)](https://app.shippable.com/projects/544f86d844927f89db3dff55/builds/latest)
