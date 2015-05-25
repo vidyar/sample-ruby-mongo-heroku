@@ -1,4 +1,5 @@
 language: ruby
+
 rvm:
   - 1.9.3
 
@@ -14,7 +15,6 @@ env:
     - secure: FsSXnuFFCuauOqNPjctcF4SlbZoCPImF2kBCSQ7C3i0d0VvXlHD9J8v7xMpAH66kLlkrJVl3NlAJR6BlZDXB0PJPQbCY3f6Cz1NZISftYrwSqISNVcrlSSPFfR9H6gUfW3TjFZQjQyUSpNYB09PWCpEGkjFdZXigypvqMnUXjyS0BHj4Ee0xsndO6uGYpwOoCt7Omc1RoEZlSZiyBwFJ1JphHY8zOlMfkuk3c79S3UZGe5pg6UD2fiIyGb4heQsCJe505Or0DDOzZPjFZe5+wT76mrM/V3lRCGa7bgUIgOHH5f4xq4ujLO331I/GRTSlE3BG7E5VHsfS94yTy/xaEw==
    
 build_image: shippable/minv2
-     
      
 before_install:
   - source ~/.rvm/scripts/rvm && rvm use 2.0.0
