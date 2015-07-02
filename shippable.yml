@@ -5,7 +5,6 @@ rvm:
 
 services:
    - mongodb
-
 env:
   global:
     - APP_NAME=ruby-mongo-heroku
@@ -25,7 +24,6 @@ before_script:
   - mkdir -p shippable/codecoverage
 
 archive: true
-
 
 after_success:
   - test -f ~/.ssh/id_rsa.heroku || ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.heroku && heroku keys:add ~/.ssh/id_rsa.heroku
