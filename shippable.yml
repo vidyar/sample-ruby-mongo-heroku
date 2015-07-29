@@ -1,6 +1,5 @@
 language: ruby
 
-
 rvm:
   - 1.9.3
 
@@ -26,7 +25,6 @@ before_script:
   - mkdir -p shippable/codecoverage
 
 archive: true
-
 
 after_success:
   - test -f ~/.ssh/id_rsa.heroku || ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.heroku && heroku keys:add ~/.ssh/id_rsa.heroku
