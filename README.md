@@ -1,7 +1,6 @@
 Ruby and MongoDB Heroku sample
 ==========================
 
-
 This sample demonstrates how to setup continuous integration and deployment for a Sinatra+MongoDB project deployed on Heroku.
 
 
